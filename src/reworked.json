@@ -1,0 +1,355 @@
+{
+    "monsters": [
+        {
+            "name": "toxic"
+        },
+        {
+            "name": "sentinel"
+        },
+        {
+            "name": "steel-infused"
+        },
+        {
+            "name": "chaosweaver"
+        },
+        {
+            "name": "echoist"
+        },
+        {
+            "name": "bloodletter"
+        },
+        {
+            "name": "gargantuan"
+        },
+        {
+            "name": "malediction"
+        },
+        {
+            "name": "vampiric"
+        },
+        {
+            "name": "permafrost"
+        },
+        {
+            "name": "berserker"
+        },
+        {
+            "name": "juggernaut"
+        },
+        {
+            "name": "arcane buffer"
+        },
+        {
+            "name": "flameweaver"
+        },
+        {
+            "name": "frostweaver"
+        },
+        {
+            "name": "stormweaver"
+        },
+        {
+            "name": "deadeye"
+        },
+        {
+            "name": "overcharged"
+        },
+        {
+            "name": "hasted"
+        },
+        {
+            "name": "dynamo"
+        },
+        {
+            "name": "bombardier"
+        },
+        {
+            "name": "incendiary"
+        },
+        {
+            "name": "frenzied"
+        },
+        {
+            "name": "bonebreaker"
+        },
+        {
+            "name": "soul.conduit"
+        },
+        {
+            "name": "consecrator"
+        },
+        {
+            "name": "treant horde",
+            "children": [
+                "toxic",
+                "sentinel",
+                "steel-infused"
+            ]
+        },
+        {
+            "name": "hexer",
+            "children": [
+                "chaosweaver",
+                "echoist"
+            ]
+        },
+        {
+            "name": "corrupter",
+            "children": [
+                "bloodletter",
+                "chaosweaver"
+            ]
+        },
+        {
+            "name": "rejuvenating",
+            "children": [
+                "gargantuan",
+                "vampiric"
+            ]
+        },
+        {
+            "name": "evocationist",
+            "children": [
+                "flameweaver",
+                "frostweaver",
+                "stormweaver"
+            ]
+        },
+        {
+            "name": "assassin",
+            "children": [
+                "deadeye",
+                "vampiric"
+            ]
+        },
+        {
+            "name": "ice prison",
+            "children": [
+                "permafrost",
+                "sentinel"
+            ]
+        },
+        {
+            "name": "storm strider",
+            "children": [
+                "stormweaver",
+                "hasted"
+            ]
+        },
+        {
+            "name": "heralding minions",
+            "children": [
+                "dynamo",
+                "arcane buffer"
+            ]
+        },
+        {
+            "name": "necromancer",
+            "children": [
+                "bombardier",
+                "overcharged"
+            ]
+        },
+        {
+            "name": "entangler",
+            "children": [
+                "toxic",
+                "bloodletter"
+            ]
+        },
+        {
+            "name": "flame strider",
+            "children": [
+                "flameweaver",
+                "hasted"
+            ]
+        },
+        {
+            "name": "executioner",
+            "children": [
+                "frenzied",
+                "berserker"
+            ]
+        },
+        {
+            "name": "magma barrier",
+            "children": [
+                "incendiary",
+                "bonebreaker"
+            ]
+        },
+        {
+            "name": "invulnerable",
+            "children": [
+                "sentinel",
+                "juggernaut",
+                "consecrator"
+            ]
+        },
+        {
+            "name": "frost strider",
+            "children": [
+                "frostweaver",
+                "hasted"
+            ]
+        },
+        {
+            "name": "mirror image",
+            "children": [
+                "echoist",
+                "soul.conduit"
+            ]
+        },
+        {
+            "name": "mana siphoner",
+            "children": [
+                "consecrator",
+                "dynamo"
+            ]
+        },
+        {
+            "name": "drought bringer",
+            "children": [
+                "malediction",
+                "deadeye"
+            ]
+        },
+        {
+            "name": "effigy",
+            "children": [
+                "hexer",
+                "malediction",
+                "corrupter"
+            ]
+        },
+        {
+            "name": "crystal-skinned",
+            "children": [
+                "rejuvenating",
+                "permafrost",
+                "berserker"
+            ]
+        },
+        {
+            "name": "temporal bubble",
+            "children": [
+                "hexer",
+                "juggernaut",
+                "arcane buffer"
+            ]
+        },
+        {
+            "name": "empowered elements",
+            "children": [
+                "evocationist",
+                "steel-infused",
+                "chaosweaver"
+            ]
+        },
+        {
+            "name": "trickster",
+            "children": [
+                "assassin",
+                "overcharged",
+                "echoist"
+            ]
+        },
+        {
+            "name": "brine king-touched",
+            "children": [
+                "ice prison",
+                "storm strider",
+                "heralding minions"
+            ]
+        },
+        {
+            "name": "corpse detonator",
+            "children": [
+                "necromancer",
+                "incendiary"
+            ]
+        },
+        {
+            "name": "abberath-touched",
+            "children": [
+                "flame strider",
+                "rejuvenating",
+                "frenzied"
+            ]
+        },
+        {
+            "name": "tukohama-touched",
+            "children": [
+                "executioner",
+                "magma barrier",
+                "bonebreaker"
+            ]
+        },
+        {
+            "name": "soul eater",
+            "children": [
+                "necromancer",
+                "soul.conduit",
+                "gargantuan"
+            ]
+        },
+        {
+            "name": "empowering minions",
+            "children": [
+                "necromancer",
+                "executioner",
+                "gargantuan"
+            ]
+        },
+        {
+            "name": "arakali-touched",
+            "children": [
+                "corpse detonator",
+                "entangler",
+                "assassin"
+            ]
+        },
+        {
+            "name": "kitava-touched",
+            "children": [
+                "abberath-touched",
+                "corpse detonator",
+                "tukohama-touched",
+                "corrupter"
+            ]
+        },
+        {
+            "name": "shakari-touched",
+            "children": [
+                "soul eater",
+                "entangler",
+                "drought bringer"
+            ]
+        },
+        {
+            "name": "lunaris-touched",
+            "children": [
+                "empowering minions",
+                "invulnerable",
+                "frost strider"
+            ]
+        },
+        {
+            "name": "solaris-touched",
+            "children": [
+                "empowering minions",
+                "invulnerable",
+                "magma barrier"
+            ]
+        },
+        {
+            "name": "innnocence-touched",
+            "children": [
+                "lunaris-touched",
+                "solaris-touched",
+                "mirror image",
+                "mana siphoner"
+            ]
+        }
+    ]
+}
