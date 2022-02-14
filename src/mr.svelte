@@ -55,13 +55,4 @@
         display: flex;
         align-items: center;
     }
-    .collapsed_c {
-        transform: rotate(90deg);
-    }
-    .open_c {
-        transform: rotate(0deg);
-    }
-    .collapsible {
-        background: transparent url("https://img.icons8.com/ios-glyphs/30/000000/expand--v1.png");
-    }
 </style>
