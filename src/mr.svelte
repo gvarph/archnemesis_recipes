@@ -4,7 +4,6 @@
     export let monster_name;
     import recipes from "./recipes.json";
     let children = [];
-    let collapsed = false;
 
     //get monster with name equal to monster_name
     let monster = recipes.monsters.find((monster) => monster.name === monster_name);
@@ -24,7 +23,7 @@
             {monster_name}
         </div>
     </div>
-    {#if children.length > 0 && !collapsed}
+    {#if children.length > 0 && !is_complete}
         <div class="sub_recipe">
             {#each children as child}
                 <svelte:self monster_name={child} parent_complete={is_complete} />
